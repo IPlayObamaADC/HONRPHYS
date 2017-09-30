@@ -2,16 +2,16 @@
 using namespace std;
 
 int main() {
-  cout << "hello world" << end;
+  cout << "hello world" << endl;
   int i=2;
-  cout << "i = " <<i<<endl;
+  cout << "i = " << i << endl;
 
   double a=3.3;
-  cout << "a = "<<a<<endl;
+  cout << "a = "<< a << endl;
 
   int j = a*i;
 
-  cout << "a*i = "<<j<endl;
+  cout << "a*i = "<< j << endl;
 
   return 0;
 }
