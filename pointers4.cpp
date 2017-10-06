@@ -11,4 +11,6 @@ int main() {
   *p1 *= 2;
   cout << "The data stored in address " << p1 << "is " << *p1 << endl;
   cout << "The data stored in address " << p2 << "is " << *p2 << endl;
+
+  return 0;
 }
