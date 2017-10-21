@@ -2,7 +2,15 @@
 
 using namespace std;
 
+/************************************************\
+*                                                *
+*                    Arrays                      *
+*         This program demonstrates arrays       *
+*                                                *
+\************************************************/                                       
 int main() {
+  
+  // a loop to demonstrate 1D arrays
   int ii[3] = {1,2,3};
   int j = 0;
   while (j<3) {
@@ -10,6 +18,7 @@ int main() {
     j++;
   }
 
+  // a loop to demonstrate 2D arrays
   int LL[2][3] = {1,2,3,4,5,6};
   j=0;
   int k;
